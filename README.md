@@ -135,6 +135,48 @@ python bdix_tester.py web --port 9000 --open
 
 One click tests every server with live progress, Open/Closed/Failed counters, search and filters — **no ads, no analytics, no account**. It is an original implementation inspired by the public [bdix.link tester](https://bdix.link/test/server); it uses this repo's data and never calls bdix.link's API.
 
+## Deploying to Render (Free)
+
+This repo is Render-ready. The local dashboard can run as a Render Web Service without Gunicorn.
+
+### Manual Web Service
+
+In Render → **New + → Web Service**, select this repo, then set:
+
+```bash
+Build Command
+pip install -r requirements.txt
+```
+
+```bash
+Start Command
+python bdix_tester.py web --host 0.0.0.0 --keep-alive 10
+```
+
+Health Check Path:
+
+```bash
+/healthz
+```
+
+Use a free compute plan. `gunicorn your_application.wsgi` is **not** required — this is a plain Python web server, not a WSGI app.
+
+The app automatically:
+
+- binds to `0.0.0.0` when running on Render,
+- uses Render’s `$PORT`,
+- serves the dashboard at `/`,
+- exposes `/healthz`,
+- self-pings every 10 minutes by default so the Render free service does not sleep after 15 minutes of inactivity.
+
+You can tune or disable the ping with `--keep-alive N` or `--no-keep-alive`.
+
+### Render Blueprint
+
+Alternatively, use **New + → Blueprint** and select this repo. Render will read `render.yaml` and configure the service automatically — no manual Build/Start Command needed.
+
+> Render’s datacenter is outside Bangladesh, so test results from Render reflect what is reachable from that network. For Bangladesh-side results, use `--via-ssh root@your-bd-vps` in the Start Command.
+
 ## Contributing
 
 - Servers come and go constantly. To add/fix one, edit `servers.json` (keep alphabetical per category) and PR.
