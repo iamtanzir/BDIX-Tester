@@ -60,6 +60,9 @@ DEFAULT_DATA_CANDIDATES = (
 )
 COMMUNITY_DATA = os.path.join(BASE_DIR, "community-servers.json")
 WEB_DIR = os.path.join(BASE_DIR, "web")
+DEFAULT_ISP_RULES = os.path.join(BASE_DIR, "isp-rules.json")
+_ISP_RULES_CACHE = None
+_DETECT_CACHE = None
 
 # ---------------------------------------------------------------- utilities
 
@@ -92,6 +95,57 @@ def supports_color(no_color_flag: bool) -> bool:
     return True
 
 
+def detect_network():
+    """Detect the public network using fixed third-party lookup endpoints."""
+    global _DETECT_CACHE
+    if _DETECT_CACHE and time.time() - _DETECT_CACHE[0] < 600:
+        return _DETECT_CACHE[1]
+
+    providers = []
+
+    def ipwhois(d):
+        if not d.get("success", True):
+            return None
+        connection = d.get("connection") or {}
+        org = connection.get("org") or connection.get("isp") or d.get("org")
+        asn = connection.get("asn") or d.get("asn")
+        return {"org": org, "asn": f"AS{asn}" if asn and not str(asn).startswith("AS") else asn,
+                "country": d.get("country_code") or d.get("countryCode"), "provider": "ipwho.is"}
+
+    def ipinfo(d):
+        org = d.get("org")
+        if not org:
+            return None
+        match = re.match(r"^(AS\d+)\s+(.+)$", org)
+        return {"org": match.group(2) if match else org,
+                "asn": match.group(1) if match else None,
+                "country": d.get("country"), "provider": "ipinfo.io"}
+
+    def ipapi(d):
+        if d.get("error") or not d.get("org"):
+            return None
+        return {"org": d.get("org"), "asn": d.get("asn"),
+                "country": d.get("country_code"), "provider": "ipapi.co"}
+
+    providers.append(("https://ipwho.is/", ipwhois))
+    providers.append(("https://ipinfo.io/json/", ipinfo))
+    providers.append(("https://ipapi.co/json/", ipapi))
+
+    errors = []
+    for url, normalise in providers:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            with urllib.request.urlopen(req, timeout=5) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            result = normalise(data)
+            if result and result.get("org"):
+                _DETECT_CACHE = (time.time(), result)
+                return result
+        except Exception as exc:
+            errors.append(f"{url}: {type(exc).__name__}")
+    return {"error": "network detection failed", "details": errors}
+
+
 class Console:
     def __init__(self, color: bool):
         self.color = color
@@ -107,6 +161,43 @@ class Console:
 
 
 # ------------------------------------------------------------- data loading
+
+def load_isp_rules(path: str = DEFAULT_ISP_RULES):
+    global _ISP_RULES_CACHE
+    if _ISP_RULES_CACHE is not None:
+        return _ISP_RULES_CACHE
+    try:
+        with open(path, "r", encoding="utf-8") as fh:
+            rules = json.load(fh)
+    except (OSError, json.JSONDecodeError):
+        rules = {"match": [], "private": {}, "detect": []}
+    _ISP_RULES_CACHE = rules
+    return rules
+
+
+def classify_server(server: dict) -> dict:
+    """Attach scope ('bdix' or ISP-only) and the owning ISP when confidently known."""
+    rules = load_isp_rules()
+    host, _ = split_host_port(server["url"])
+    host = (host or "").lower()
+    text = f"{server['name']} {server['url']}".lower()
+
+    for rule in rules.get("match", []):
+        if re.search(rule.get("pattern", "$^"), text):
+            server["scope"] = rule.get("scope", "isp")
+            server["isp"] = rule.get("isp")
+            return server
+
+    if host and is_private_host(host):
+        private = rules.get("private") or {}
+        server["scope"] = private.get("scope", "isp")
+        server["isp"] = private.get("isp")
+        return server
+
+    server["scope"] = "bdix"
+    server["isp"] = None
+    return server
+
 
 def normalize_entry(raw: dict) -> dict:
     """Accept both the clean servers.json format and the original raw dump."""
@@ -137,9 +228,8 @@ def load_servers(path: str):
     rows = data.get("Data") if isinstance(data, dict) else data
     if not isinstance(rows, list):
         raise ValueError(f"{path}: unrecognised data layout")
-    servers = [normalize_entry(r) for r in rows]
-    servers = [s for s in servers if s["name"] and s["url"]]
-    return servers
+    servers = [split_entry for split_entry in (normalize_entry(r) for r in rows) if split_entry["name"] and split_entry["url"]]
+    return [classify_server(s) for s in servers]
 
 
 def default_data_path() -> str:
@@ -200,16 +290,17 @@ def _http_via_tunnel(original, timeout: float, via_local_port: int,
         match = _HTTP_STATUS_RE.search(buf)
         if match:
             status = int(match.group(1))
-            return {"ok": status < 400, "status": status,
+            http_ok = 200 <= status < 400
+            return {"ok": http_ok, "status": status,
                     "latency_ms": round(latency, 1),
                     "final_url": original.geturl(),
-                    "error": None if status < 400 else f"HTTP {status}"}
+                    "error": None if http_ok else f"HTTP {status}"}
         if buf:
-            # Answered with something, but not a recognisable HTTP status line.
-            return {"ok": True, "status": None,
+            # Answered with something, but not a recognisable HTTP success.
+            return {"ok": False, "status": None,
                     "latency_ms": round(latency, 1),
                     "final_url": original.geturl(),
-                    "error": "unparseable HTTP response (server answered)"}
+                    "error": "server answered but did not return a usable HTTP response"}
         return {"ok": False, "status": None, "latency_ms": round(latency, 1),
                 "final_url": original.geturl(), "error": "empty response"}
     except ssl.CertificateError as exc:
@@ -255,13 +346,16 @@ def http_test(url: str, timeout: float, via_local_port: int = None,
             resp.read(4096)
             latency = (time.monotonic() - started) * 1000
             status = resp.getcode()
-            return {"ok": status < 400, "status": status,
+            http_ok = status is not None and 200 <= status < 400
+            return {"ok": http_ok, "status": status,
                     "latency_ms": round(latency, 1),
-                    "final_url": url, "error": None}
+                    "final_url": url,
+                    "error": None if http_ok else f"HTTP {status}"}
     except urllib.error.HTTPError as exc:
         latency = (time.monotonic() - started) * 1000
-        # The server *answered* — it is reachable, just not happy with GET.
-        return {"ok": exc.code < 400, "status": exc.code,
+        # The server answered, but not with a usable response.
+        http_ok = 200 <= exc.code < 400
+        return {"ok": http_ok, "status": exc.code,
                 "latency_ms": round(latency, 1), "final_url": url,
                 "error": f"HTTP {exc.code} {exc.reason}"}
     except Exception as exc:
@@ -271,8 +365,8 @@ def http_test(url: str, timeout: float, via_local_port: int = None,
 
 
 def ftp_test(host: str, port: int, timeout: float, via_local_port: int = None,
-             ftp_login: bool = False) -> dict:
-    """Lightweight FTP probe: connect and read the 220 banner. No login needed."""
+             ftp_login: bool = True) -> dict:
+    """Probe an FTP server and, by default, require anonymous login to pass."""
     target_host = "127.0.0.1" if via_local_port else host
     target_port = via_local_port if via_local_port else port
     started = time.monotonic()
@@ -291,21 +385,34 @@ def ftp_test(host: str, port: int, timeout: float, via_local_port: int = None,
             pass
         latency = (time.monotonic() - started) * 1000
         text = banner.decode("utf-8", errors="replace").strip()
-        ok = text.startswith("220") or bool(text)
-        if ok and ftp_login and not via_local_port:
+        handshake_ok = text.startswith("220")
+
+        if via_local_port:
+            # FTP data channels cannot pass through a single ssh -L forward.
+            return {"ok": handshake_ok, "banner": text or None,
+                    "latency_ms": round(latency, 1),
+                    "anonymous_login": None,
+                    "error": None if handshake_ok else (text or "no 220 FTP banner")}
+
+        if ftp_login:
             try:
                 ftp = ftplib.FTP()
                 ftp.connect(host, port, timeout=timeout)
                 ftp.login()  # anonymous
                 ftp.quit()
+                return {"ok": True, "banner": text or None,
+                        "latency_ms": round(latency, 1),
+                        "anonymous_login": True, "error": None}
             except Exception as exc:
-                return {"ok": True, "banner": text, "latency_ms": round(latency, 1),
+                return {"ok": False, "banner": text or None,
+                        "latency_ms": round(latency, 1),
                         "anonymous_login": False,
                         "error": f"anonymous login failed: {exc}"}
-            return {"ok": True, "banner": text, "latency_ms": round(latency, 1),
-                    "anonymous_login": True, "error": None}
-        return {"ok": ok, "banner": text or None, "latency_ms": round(latency, 1),
-                "anonymous_login": None, "error": None if text else "no banner received"}
+
+        return {"ok": handshake_ok, "banner": text or None,
+                "latency_ms": round(latency, 1),
+                "anonymous_login": None,
+                "error": None if handshake_ok else (text or "no 220 FTP banner")}
     except Exception as exc:
         latency = (time.monotonic() - started) * 1000
         return {"ok": False, "banner": None, "latency_ms": round(latency, 1),
@@ -402,7 +509,7 @@ class Tunnel:
 
 
 def test_server(server: dict, timeout: float, via_ssh: str = None,
-                ftp_login: bool = False, skip_ftp: bool = False,
+                ftp_login: bool = True, skip_ftp: bool = False,
                 insecure_https: bool = False) -> dict:
     result = dict(server)
     host, port = split_host_port(server["url"])
@@ -558,7 +665,7 @@ def write_html_report(path, summary, results):
 
 # --------------------------------------------------------------------- cli
 
-def filter_servers(servers, type_filter, name_regex):
+def filter_servers(servers, type_filter, name_regex, isp_filter=None):
     out = servers
     if type_filter and type_filter != "all":
         t = type_filter.lower()
@@ -573,12 +680,18 @@ def filter_servers(servers, type_filter, name_regex):
     if name_regex:
         rx = re.compile(name_regex, re.IGNORECASE)
         out = [s for s in out if rx.search(s["name"]) or rx.search(s["url"])]
+    if isp_filter:
+        wanted = re.sub(r"[^a-z0-9]+", "", isp_filter.lower())
+        out = [s for s in out
+               if s.get("scope") == "bdix"
+               or wanted in re.sub(r"[^a-z0-9]+", "", (s.get("isp") or "").lower())
+               or wanted in re.sub(r"[^a-z0-9]+", "", s["name"].lower() + s["url"].lower())]
     return out
 
 
 def cmd_test(args, console):
     servers = load_servers(resolve_data_path(args))
-    servers = filter_servers(servers, args.type, args.name)
+    servers = filter_servers(servers, args.type, args.name, args.isp)
     if not servers:
         print("No servers match the given filters.", file=sys.stderr)
         return 2
@@ -595,7 +708,7 @@ def cmd_test(args, console):
     with cf.ThreadPoolExecutor(max_workers=args.workers) as pool:
         futures = {
             pool.submit(test_server, s, args.timeout, via,
-                        args.ftp_login, args.no_ftp, args.insecure_https): s
+                        (not args.no_ftp_login), args.no_ftp, args.insecure_https): s
             for s in servers
         }
         done = 0
@@ -649,7 +762,7 @@ def cmd_test(args, console):
 
 def cmd_list(args, console):
     servers = load_servers(resolve_data_path(args))
-    servers = filter_servers(servers, args.type, args.name)
+    servers = filter_servers(servers, args.type, args.name, args.isp)
     if args.markdown:
         print("| # | Server | Category | Link |")
         print("|---|--------|----------|------|")
@@ -702,7 +815,7 @@ def cmd_web(args, console):
     """Serve the ad-free local web dashboard (bdix.link-style, fully self-hosted)."""
     data_path_used = resolve_data_path(args)
     servers = load_servers(data_path_used)
-    servers = filter_servers(servers, args.type, args.name)
+    servers = filter_servers(servers, args.type, args.name, args.isp)
     # The dashboard identifies servers by name; keep the first of any duplicates.
     _seen = set()
     uniq = []
@@ -721,7 +834,7 @@ def cmd_web(args, console):
 
     timeout = args.timeout
     via_ssh = args.via_ssh
-    ftp_login = args.ftp_login
+    ftp_login = not args.no_ftp_login
     insecure_https = args.insecure_https
     verbose = args.verbose
 
@@ -761,7 +874,13 @@ def cmd_web(args, console):
                 self._json({"status": "ok", "servers": len(servers)})
             elif path == "/api/servers":
                 self._json([{"name": s["name"], "url": s["url"],
-                             "category": s["category"]} for s in servers])
+                             "category": s["category"], "scope": s.get("scope", "bdix"),
+                             "isp": s.get("isp")} for s in servers])
+            elif path == "/api/isp-rules":
+                self._json(load_isp_rules())
+            elif path == "/api/detect-network":
+                result = detect_network()
+                self._json(result, 503 if result.get("error") else 200)
             elif path == "/api/test":
                 qs = urllib.parse.parse_qs(parsed.query)
                 name = (qs.get("name") or [""])[0]
@@ -863,7 +982,12 @@ def build_parser():
                         "tests through --via-ssh. By default the certificate is "
                         "verified against the original hostname")
     p.add_argument("--ftp-login", action="store_true",
-                   help="also try anonymous FTP login (default: banner only)")
+                   help="(kept for compatibility; anonymous FTP login is now required by default)")
+    p.add_argument("--no-ftp-login", action="store_true",
+                   help="only read the FTP banner; do not require anonymous login")
+    p.add_argument("--isp", default=None, metavar="ISP",
+                   help="only show public BDIX servers plus servers owned by this ISP "
+                        "(e.g. --isp 'Evolution Net')")
     p.add_argument("--no-ftp", action="store_true",
                    help="skip the FTP port-21 probe")
     p.add_argument("--json", metavar="FILE", help="write JSON report to FILE")

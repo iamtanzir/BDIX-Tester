@@ -16,7 +16,7 @@ This repo contains:
 
 | Component | What it does |
 |---|---|
-| `bdix_tester.py` | Dependency-free Python CLI that probes every server and reports UP / BLOCKED / DOWN with latency + FTP banner |
+| `bdix_tester.py` | Dependency-free Python CLI that verifies every server from your network and reports UP / BLOCKED / DOWN with latency, strict HTTP success checks and anonymous FTP login |
 | `servers.json` | 134 curated servers (from a 2026 snapshot, ~40 responsive from outside BD) |
 | `community-servers.json` | 525 community-listed servers (from [BDIX-TESTER-BY-BORANNO](https://github.com/boranno/BDIX-TESTER-BY-BORANNO), BSD-3-Clause) — use `--community` |
 | `web/index.html` | Ad-free **local web dashboard** — a self-hosted alternative to the bdix.link page, no AdSense |
@@ -53,12 +53,13 @@ Commands:
 Options:
   --type all|movie|tv|ftp   only servers of a category
   --name REGEX              only servers matching a name/URL pattern
+  --isp ISP                 public BDIX servers + servers owned by this ISP
   --timeout SEC             per-request timeout (default 6)
   --workers N               concurrent probes (default 24; >= 8 recommended)
   --community               use community-servers.json instead of servers.json
   --via-ssh USER@HOST       probe *through* a Bangladesh VPS via SSH (see below)
   --insecure-https          (advanced) skip TLS verification for HTTPS over --via-ssh
-  --ftp-login               also attempt anonymous FTP login (default: banner only)
+  --no-ftp-login            only read the FTP banner (default requires anonymous FTP login)
   --no-ftp                  skip the port-21 probe
   --json FILE | --csv FILE | --html FILE   save a report
   --fail-under N            exit code 1 if fewer than N servers are UP (CI)
@@ -133,7 +134,9 @@ python bdix_tester.py web --via-ssh root@bd-vps   # same, but results come from 
 python bdix_tester.py web --port 9000 --open
 ```
 
-One click tests every server with live progress, Open/Closed/Failed counters, search and filters — **no ads, no analytics, no account**. It is an original implementation inspired by the public [bdix.link tester](https://bdix.link/test/server); it uses this repo's data and never calls bdix.link's API.
+It detects your network (you can override it) and shows only servers it can realistically reach: public BDIX servers, plus private/ISP-specific servers only when they match your ISP. The **Test visible servers** button verifies that exact filtered set.
+
+Strict checks: HTTP requires a real 2xx/3xx response; FTP requires anonymous login unless `--no-ftp-login` is used. "Verified" means the server answered correctly from this machine at that moment — no external service can be guaranteed forever.
 
 ## Deploying to Render (Free)
 
