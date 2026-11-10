@@ -757,6 +757,8 @@ def cmd_web(args, console):
             path = parsed.path
             if path == "/" or path == "/index.html":
                 self._file(index_file, "text/html; charset=utf-8")
+            elif path == "/healthz":
+                self._json({"status": "ok", "servers": len(servers)})
             elif path == "/api/servers":
                 self._json([{"name": s["name"], "url": s["url"],
                              "category": s["category"]} for s in servers])
@@ -784,13 +786,39 @@ def cmd_web(args, console):
     class Server(http.server.ThreadingHTTPServer):
         daemon_threads = True
 
-    server = Server(("127.0.0.1", args.port), Handler)
-    url = f"http://127.0.0.1:{args.port}/"
-    print(console.bold(f"BDIX-Tester web dashboard (ad-free, local)"))
+    bind_host = args.host
+    server = Server((bind_host, args.port), Handler)
+    display_host = "127.0.0.1" if bind_host in ("0.0.0.0", "::", "") else bind_host
+    url = f"http://{display_host}:{args.port}/"
+    print(console.bold("BDIX-Tester web dashboard (ad-free)"))
     print(f"  Serving {len(servers)} servers from {data_path_used}")
-    print(f"  Open {console.cyan(url)}   (Ctrl+C to stop)")
+    print(f"  Listening on {bind_host}:{args.port}  →  open {console.cyan(url)}   (Ctrl+C to stop)", flush=True)
     if via_ssh:
-        print(f"  Tests run THROUGH the Bangladesh VPS: {via_ssh}")
+        print(f"  Tests run THROUGH the Bangladesh VPS: {via_ssh}", flush=True)
+
+    if not args.no_keep_alive and args.keep_alive > 0:
+        import threading
+        ping_target = (os.environ.get("BDIX_PING_URL")
+                       or os.environ.get("RENDER_EXTERNAL_URL")
+                       or f"http://127.0.0.1:{args.port}/").rstrip("/")
+        interval = args.keep_alive * 60
+
+        def _ping_loop():
+            while True:
+                time.sleep(interval)
+                try:
+                    with urllib.request.urlopen(ping_target + "/healthz", timeout=30) as resp:
+                        resp.read(64)
+                    print(f"keep-alive ping ok -> {ping_target}/healthz", flush=True)
+                except Exception as exc:
+                    print(f"keep-alive ping failed -> {ping_target}/healthz ({exc})",
+                          file=sys.stderr, flush=True)
+
+        threading.Thread(target=_ping_loop, daemon=True).start()
+        print(f"  Keep-alive: pinging {ping_target}/healthz every {args.keep_alive:g} min "
+              f"({'RENDER_EXTERNAL_URL detected — Render free tier will not sleep' if os.environ.get('RENDER_EXTERNAL_URL') else 'set BDIX_PING_URL or RENDER_EXTERNAL_URL for Render'})",
+              flush=True)
+
     if args.open:
         try:
             webbrowser.open(url)
@@ -845,8 +873,16 @@ def build_parser():
                    help="exit with code 1 if fewer than N servers are UP")
     p.add_argument("--markdown", action="store_true",
                    help="(list) print a Markdown table")
-    p.add_argument("--port", type=int, default=8080,
-                   help="(web) dashboard port (default 8080)")
+    p.add_argument("--host", default=("0.0.0.0" if os.environ.get("RENDER") else "127.0.0.1"),
+                   help="(web) bind address (default 127.0.0.1, or 0.0.0.0 on Render)")
+    p.add_argument("--port", type=int, default=int(os.environ.get("PORT", "8080")),
+                   help="(web) dashboard port (default $PORT or 8080)")
+    p.add_argument("--keep-alive", type=float, default=10.0, metavar="MINUTES",
+                   help="(web) ping own public URL every N minutes so Render "
+                        "free tier does not sleep (default 10; 0 disables). "
+                        "Target: BDIX_PING_URL or RENDER_EXTERNAL_URL if set")
+    p.add_argument("--no-keep-alive", action="store_true",
+                   help="(web) disable the built-in keep-alive self-ping")
     p.add_argument("--open", action="store_true",
                    help="(web) open the dashboard in the browser automatically")
     p.add_argument("--progress", action="store_true",

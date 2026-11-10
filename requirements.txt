@@ -1,0 +1,2 @@
+# BDIX-Tester runs on the Python standard library only.
+# This file exists so Render's default Python build step (`pip install -r requirements.txt`) works unchanged.

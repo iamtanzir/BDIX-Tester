@@ -1,0 +1,15 @@
+# Render blueprint — https://render.com/docs/blueprint-spec
+# New > Blueprint, pick this repo, done. Keeps the free web service awake
+# via the built-in keep-alive self-ping (every 10 minutes by default).
+services:
+  - type: web
+    name: bdix-tester
+    runtime: python
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /healthz
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bdix_tester.py web --host 0.0.0.0 --keep-alive 10
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
