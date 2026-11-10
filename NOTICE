@@ -1,0 +1,24 @@
+BDIX-Tester
+Copyright (c) 2026 A.K.M. Tanzir Ahmed (@iamtanzir)
+
+This project distributes data and code derived from the following sources;
+each retains its own copyright and license:
+
+1. Original BDIX server snapshot (this repository, initial commits, 2026).
+   Servers listed are third-party infrastructure running at the operators'
+   discretion; listing does not imply endorsement or affiliation.
+
+2. BDIX-TESTER-BY-BORANNO
+   Copyright (c) 2022 Boranno Golder — BSD 3-Clause License
+   https://github.com/boranno/BDIX-TESTER-BY-BORANNO
+   Used for `community-servers.json` (see `tools/import_community_list.py`).
+   Full license text: `LICENSES/BSD-3-Clause-Boranno-Golder.txt`.
+
+3. BDIX.Link (https://bdix.link/test/server)
+   The original public web tester. Our curated `servers.json` snapshot is
+   derived from its public server data. No source code from bdix.link is
+   included in this repository; the local web dashboard in `web/` is an
+   original implementation.
+
+BDIX is operated by the Bangladesh Internet Exchange (bdix.net); this is an
+unofficial community tool and is not affiliated with or endorsed by BDIX.

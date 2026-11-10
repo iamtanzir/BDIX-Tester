@@ -1,0 +1,806 @@
+[
+  {
+    "name": "ABCMovies",
+    "url": "http://103.103.239.66/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Alpha Streaming",
+    "url": "http://alphamediazone.com/moviedom/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Alive Network",
+    "url": "http://172.127.27.102/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Alivenet Bogura FTP",
+    "url": "http://103.135.134.226/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Alpha Media Zone",
+    "url": "http://ftp.alphamediazone.com/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Alpha Media Zone TV",
+    "url": "http://tv.alphamediazone.com/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "AjobNet",
+    "url": "http://103.106.59.226:8096/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Amrbd",
+    "url": "http://bdtv.live/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "B Net",
+    "url": "http://103.58.73.13/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Bangla Flix",
+    "url": "http://banglaflix.com.bd/",
+    "category": "Movie",
+    "description": "🎬 Movie, Feemium"
+  },
+  {
+    "name": "Barua Cybernet",
+    "url": "http://12.1.1.3/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Barua Local",
+    "url": "http://12.1.1.1/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "BAS network",
+    "url": "http://103.87.212.46",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Beeflix",
+    "url": "http://beeflix.biz/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "BD Broadband",
+    "url": "http://bdbroadband.com/ftp/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "BD Fun",
+    "url": "http://www.bdfun.club/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "BDIP TV",
+    "url": "http://bdiptv.com/",
+    "category": "TV",
+    "description": "📺 TV, Premium"
+  },
+  {
+    "name": "BDIX FTP 1",
+    "url": "http://45.120.114.222/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "BDIX FTP 2",
+    "url": "http://103.229.18.142/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "BDIX Sports",
+    "url": "http://103.114.36.14/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "BDIX TV",
+    "url": "http://bdixtv.live/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "BD Lan",
+    "url": "http://bdlan.net/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "bdplex",
+    "url": "http://bdplex.net/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "BinodonMela",
+    "url": "http://binodonmela.net/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Bioscope Live",
+    "url": "https://bioscopelive.com/",
+    "category": "Movie+TV",
+    "description": "🎬 Movie, 📺 TV, Fremium"
+  },
+  {
+    "name": "BongoBD",
+    "url": "https://bongobd.com/",
+    "category": "Movie",
+    "description": "🎬 Movie, Fremium"
+  },
+  {
+    "name": "Bonsai HD",
+    "url": "https://www.bonsaihd.fun/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Boss BD",
+    "url": "http://cdn.bossbd.net/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Boss BD FTP",
+    "url": "http://cdn2.bossbd.net/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Bit Net FTP",
+    "url": "http://dl.bitnetbd.com/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "CandyBD",
+    "url": "http://candybd.net/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Chaya Chobi",
+    "url": "http://chayachobi.net/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Cine Bioscope",
+    "url": "http://www.cinebioscope.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Circle Network Local",
+    "url": "http://15.1.1.1/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Citech Movies",
+    "url": "http://203.83.177.225/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "CNet FTP",
+    "url": "http://144.48.110.190:8080/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Crazy CTG",
+    "url": "http://crazyctg.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "CTG Box",
+    "url": "http://ctgbox.com/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "CTG Flix",
+    "url": "http://www.ctgflix.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "CTG Fun",
+    "url": "http://ctgfun.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "CTG Hall",
+    "url": "http://www.ctghall.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "CTG Hub",
+    "url": "http://www.ctghub.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "CTG Live",
+    "url": "http://www.ctgtv.live/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "CTG Movies",
+    "url": "http://ctgmovies.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "CTG Stream",
+    "url": "http://ctgstream.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "DashNet",
+    "url": "http://103.152.18.18/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "DFLIX",
+    "url": "http://dflix.live/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "DFLIX TV",
+    "url": "http://tv.dflix.live/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "Dhaka Movie",
+    "url": "http://www.dhakamovie.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Dhaka Movie Tube",
+    "url": "http://dhakamovietube.com/tube/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "DNF BD",
+    "url": "http://media.dnfbd.net/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Dream Flix",
+    "url": "http://www.dnftpbd.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Dugdugi Live",
+    "url": "http://www.duggilive.com/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "EBox",
+    "url": "http://www.ebox.live/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "EBox FS",
+    "url": "http://fs.ebox.live/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "EBox FTP",
+    "url": "http://fileserver.ebox.live/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "EBox TV",
+    "url": "http://tv.ebox.live/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "Ekushe Net",
+    "url": "http://10.100.100.2/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Elaach",
+    "url": "http://www.elaach.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Evolution Net",
+    "url": "http://evonetbd.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Evolution Net FTP",
+    "url": "http://fs.evonetbd.com/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "E-Village CTG",
+    "url": "http://fs.evillagectg.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Explore Online",
+    "url": "http://103.222.20.150/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "FMovies",
+    "url": "https://www6.fmovies.se/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "FTP BD",
+    "url": "http://ftpbd.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "FTP BD Net",
+    "url": "http://ftpbd.net/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "FTP BD Index",
+    "url": "http://server2.ftpbd.net/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "FTP BD TV",
+    "url": "http://otv.ftpbd.net/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "FunTimeBD",
+    "url": "http://www.funtimebd.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Furious Net FTP",
+    "url": "http://www.furiousnet.net/ftp/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "GC Global",
+    "url": "http://103.113.16.46/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Gocu",
+    "url": "https://goku.to/home",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "iBox",
+    "url": "http://103.135.208.2/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "ICC Server",
+    "url": "http://10.16.100.244/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "ICC TV",
+    "url": "http://10.16.100.244/livetv.php",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "iflix",
+    "url": "https://piay.iflix.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "iHub Movie",
+    "url": "http://ihub.live/",
+    "category": "Movie+TV",
+    "description": "🎬 Movie, 📺 TV"
+  },
+  {
+    "name": "iHub TV",
+    "url": "http://tv.ihub.live/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "Info Internet Service",
+    "url": "http://103.85.197.10/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Intro Vision",
+    "url": "http://www.theintrovisionbd.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Jago BD TV",
+    "url": "http://www.jagobd.com/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "JDIX",
+    "url": "http://162.12.215.254",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Kalponik",
+    "url": "http://kalponik.net.bd/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Khulna Plex",
+    "url": "http://khulnaplex.net/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Link TV",
+    "url": "http://tv.linktech.net.bd/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "Majeda Download Server",
+    "url": "http://172.22.22.101/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Mango Gamers (Game)",
+    "url": "http://mangogamers.com/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Mars BolBD",
+    "url": "http://mars.bolbd.net/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "MediaLink24",
+    "url": "http://medialink24.net/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Mega PlexBD TV",
+    "url": "http://tv.megaplexbd.com/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "Midiplex",
+    "url": "http://cdn.midiplex.net/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Moja Loss",
+    "url": "https://www.mojaloss.stream/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Mojar FTP",
+    "url": "https://www.mojarftp.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Movie City",
+    "url": "http://59.152.96.75/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Movie Box FTP",
+    "url": "http://db1.movieboxbd.com/RDMS/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Movie Box BD",
+    "url": "http://movieboxbd.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Movies by 4D",
+    "url": "http://www.movieserver.net/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Movie Haat",
+    "url": "http://moviehaat.net/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "MTube",
+    "url": "http://mtub.bdfun.club/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "MLSBD",
+    "url": "https://mlsbd.co/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "My BDIX",
+    "url": "http://mybdix.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Natural BD",
+    "url": "http://www.naturalbd.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Nagordola",
+    "url": "http://nagordola.live/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "Net Matrix",
+    "url": "http://media.netmatrixbd.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Pandaclubbd",
+    "url": "http://pandaclubbd.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Put Lockers",
+    "url": "https://www1.putlockers.cafe/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Quick Online",
+    "url": "http://quickonlineftp.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Rainbow Networks",
+    "url": "http://cinemacity.live/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Ranghanu TV",
+    "url": "http://tv.ranghanu.live/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "Roar Media TV",
+    "url": "http://roarmediazone.com/live-tv.html",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "RoarZone Exclusive FTP",
+    "url": "https://play.roarmediazone.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "RoarZone FTP",
+    "url": "http://cdn.roarmediazone.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "RoarZone (Boss BD)",
+    "url": "http://cdn.roarzone.info/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "RoarZone TV",
+    "url": "http://tv.roarzone.info/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "SAM Online",
+    "url": "http://172.16.50.4/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "SAM Online Local 1 FTP",
+    "url": "http://172.16.50.5/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "SAM Online Local 2 FTP",
+    "url": "http://172.16.50.4/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "SAM Online Local 3 FTP",
+    "url": "http://172.16.50.6/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Seba IT",
+    "url": "http://103.195.1.50/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Showtime BD",
+    "url": "http://www.showtimebd.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Skynet",
+    "url": "http://skynet.com.bd/ftp/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "Small Screen",
+    "url": "http://103.2.226.208/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "SmilePlex",
+    "url": "http://smileplex.net:8096/web/home.html",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Smrity Cable",
+    "url": "https://www.smritycable.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "SparkleMovies",
+    "url": "http://160.202.146.220/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Starplex",
+    "url": "http://172.27.27.1/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "SunPlex",
+    "url": "http://sunplex.net/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Surzo Mama",
+    "url": "http://103.85.235.254/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Tajpata TV",
+    "url": "http://tv.tajpata.com/",
+    "category": "TV",
+    "description": "📺 TV"
+  },
+  {
+    "name": "Talmuri Local FTP",
+    "url": "http://45.250.20.19/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "TimeNei",
+    "url": "http://timenei.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Timepass FTP",
+    "url": "http://ftp.timepassbd.live/",
+    "category": "FTP",
+    "description": "🌐 FTP"
+  },
+  {
+    "name": "VDO mela",
+    "url": "http://vdomela.com/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  },
+  {
+    "name": "Unique FTP",
+    "url": "http://103.92.144.230/",
+    "category": "Movie",
+    "description": "🎬 Movie"
+  }
+]

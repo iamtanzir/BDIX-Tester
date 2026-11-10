@@ -1,0 +1,3152 @@
+[
+  {
+    "name": "10.1.1.1",
+    "url": "http://10.1.1.1",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "10.10.10.10",
+    "url": "http://10.10.10.10",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "10.10.10.10",
+    "url": "http://10.10.10.10:8080",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "10.100.100.2",
+    "url": "http://10.100.100.2",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.102.27.170",
+    "url": "http://103.102.27.170",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.109.56.114",
+    "url": "http://103.109.56.114",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.109.56.115",
+    "url": "http://103.109.56.115",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.110.126.146",
+    "url": "http://103.110.126.146:8000",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.112.63.21",
+    "url": "http://103.112.63.21",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.115.82.254",
+    "url": "http://103.115.82.254",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.126.12.226",
+    "url": "http://103.126.12.226/allmovies.php?page=1&entries=64&sort=DESC&w=grid",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.133.175.242",
+    "url": "http://103.133.175.242/80",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.200.36.242",
+    "url": "http://103.200.36.242",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.203.94.1",
+    "url": "http://103.203.94.1:8065",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.214.200.94",
+    "url": "http://103.214.200.94",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.219.232.190",
+    "url": "http://103.219.232.190",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.251.247.147",
+    "url": "http://103.251.247.147",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.49.168.107",
+    "url": "http://103.49.168.107",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.56.6.6",
+    "url": "http://103.56.6.6/Data",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.76.196.90",
+    "url": "http://103.76.196.90",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.81.104.98",
+    "url": "http://103.81.104.98",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.82.8.194",
+    "url": "http://103.82.8.194",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.86.200.7",
+    "url": "http://103.86.200.7",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.96.36.115",
+    "url": "http://103.96.36.115",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "12.1.1.2",
+    "url": "http://12.1.1.2",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "12.1.1.3",
+    "url": "http://12.1.1.3/flix",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "146.196.48.10",
+    "url": "http://146.196.48.10",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "146.196.48.9",
+    "url": "http://146.196.48.9",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "15.1.1.1",
+    "url": "http://15.1.1.1",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.102.0.3",
+    "url": "http://172.102.0.3",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.16.16.16",
+    "url": "http://172.16.16.16",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.16.16.3",
+    "url": "http://172.16.16.3",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.16.16.5",
+    "url": "http://172.16.16.5",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.16.16.6",
+    "url": "http://172.16.16.6",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.2.2.2",
+    "url": "http://172.2.2.2:80",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.20.0.19",
+    "url": "http://172.20.0.19",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.20.0.20",
+    "url": "http://172.20.0.20",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.22.22.100",
+    "url": "http://172.22.22.100",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.22.22.101",
+    "url": "http://172.22.22.101",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.27.100.3",
+    "url": "http://172.27.100.3",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.27.27.83",
+    "url": "http://172.27.27.83",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.27.27.84",
+    "url": "http://172.27.27.84",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.30.2.14",
+    "url": "http://172.30.2.14",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "192.168.100.16",
+    "url": "http://192.168.100.16",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "192.168.100.16",
+    "url": "http://192.168.100.16:8096",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "192.168.100.5",
+    "url": "http://192.168.100.5/fastnet",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "202.94.164.102",
+    "url": "http://202.94.164.102",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "3netbd.com",
+    "url": "http://3netbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "abcflixbd.com",
+    "url": "http://abcflixbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "akkadukka.com",
+    "url": "http://akkadukka.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "arishabd.net",
+    "url": "http://arishabd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "asianftp.com",
+    "url": "http://asianftp.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bddreamnet.blogspot.com",
+    "url": "http://bddreamnet.blogspot.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bdix.hitechisp.com",
+    "url": "http://bdix.hitechisp.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bdix.mtbsl.com",
+    "url": "http://bdix.mtbsl.com/server.php",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bdmovies.net",
+    "url": "http://bdmovies.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bitflixbd.com",
+    "url": "http://bitflixbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bmitbd.com",
+    "url": "http://bmitbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bossbd.live",
+    "url": "http://bossbd.live",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "cdn.midiplex.net",
+    "url": "http://cdn.midiplex.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "icc.smiledotnet.xyz",
+    "url": "http://icc.smiledotnet.xyz",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "cinemabazar.net",
+    "url": "http://cinemabazar.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "cinemabazar.net",
+    "url": "http://cinemabazar.net/DATA/NAS1",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "circleftp.net",
+    "url": "http://circleftp.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "citycloudbd.com",
+    "url": "http://citycloudbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "citynetbd.com",
+    "url": "http://citynetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "cloudone.com.bd",
+    "url": "http://cloudone.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ctgoz.com",
+    "url": "http://ctgoz.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "data.kenecolor.com",
+    "url": "http://data.kenecolor.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "deshonlinebd.com",
+    "url": "http://deshonlinebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "dflix.live",
+    "url": "http://dflix.live",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "dhakaiptv.com",
+    "url": "http://dhakaiptv.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "diginetbd.net",
+    "url": "http://diginetbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "discoveryftp.net",
+    "url": "http://discoveryftp.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "download.ectlink.com",
+    "url": "http://download.ectlink.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "emby.rangdhanu.live",
+    "url": "http://emby.rangdhanu.live",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "exploreonlinebd.net",
+    "url": "http://exploreonlinebd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "f4cineplex.myftp.org",
+    "url": "http://f4cineplex.myftp.org",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "file.khulnaflix.net",
+    "url": "http://file.khulnaflix.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "file.tajpata.com",
+    "url": "http://file.tajpata.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "filmguro.site",
+    "url": "http://filmguro.site",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "flashnetbd.com",
+    "url": "http://flashnetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "focusflix.com",
+    "url": "http://focusflix.com/ftp",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "fs.amrbd.com",
+    "url": "http://fs.amrbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "fs.moviemela.live",
+    "url": "http://fs.moviemela.live:8096",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "fs.rangdhanu.live",
+    "url": "http://fs.rangdhanu.live",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "fs1.dflix.live",
+    "url": "http://fs1.dflix.live",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "fs1.mebd.net",
+    "url": "http://fs1.mebd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ftp.alphamediazone.com",
+    "url": "http://ftp.alphamediazone.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ftp.com.bd",
+    "url": "http://ftp.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ftp.timepassbd.live",
+    "url": "http://ftp.timepassbd.live",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ftp2.circleftp.net",
+    "url": "http://ftp2.circleftp.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ftpweb.mazedanetworks.net",
+    "url": "http://ftpweb.mazedanetworks.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "funtime.com.bd",
+    "url": "http://funtime.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "fz.moviemela.live",
+    "url": "http://fz.moviemela.live:8096",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ghatailonline.net",
+    "url": "http://ghatailonline.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "globalcommunicationbd.com",
+    "url": "http://globalcommunicationbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "gpisp.net",
+    "url": "http://gpisp.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "greetingsonlinebd.com",
+    "url": "http://greetingsonlinebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "hd.circleftp.net",
+    "url": "http://hd.circleftp.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "iboxbd.online",
+    "url": "http://iboxbd.online",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "imonlineisp.net",
+    "url": "http://imonlineisp.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "inoxbd.com",
+    "url": "http://inoxbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "jhakkas.live",
+    "url": "http://jhakkas.live",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "kaat.pw",
+    "url": "http://kaat.pw",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "karsannet.com",
+    "url": "http://karsannet.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "kawsarit.com",
+    "url": "http://kawsarit.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "khulnaflix.net",
+    "url": "http://khulnaflix.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "lalbatte.net",
+    "url": "http://lalbatte.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "leadtechnologybd.com",
+    "url": "http://leadtechnologybd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mathanosto.top",
+    "url": "http://mathanosto.top",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mcplexbangla.com",
+    "url": "http://mcplexbangla.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "media.ctgfun.com",
+    "url": "http://media.ctgfun.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "media.furiousnet.net",
+    "url": "http://media.furiousnet.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "media.unique24.net",
+    "url": "http://media.unique24.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "media.zerointernet.net",
+    "url": "http://media.zerointernet.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "megaflix.tv",
+    "url": "http://megaflix.tv",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "midiplex.net",
+    "url": "http://midiplex.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mirpurnetbd.com",
+    "url": "http://mirpurnetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "movie.smartnetltd.com",
+    "url": "http://movie.smartnetltd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "movies.fnfonlinebd.com",
+    "url": "http://movies.fnfonlinebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "movies.kloud.com.bd",
+    "url": "http://movies.kloud.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mtbsl.com",
+    "url": "http://mtbsl.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mymoviebazar.net",
+    "url": "http://mymoviebazar.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "neefit.net",
+    "url": "http://neefit.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "netcode.live",
+    "url": "http://netcode.live/netcodemedia",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "new.naturalbd.com",
+    "url": "http://new.naturalbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "osthir.net",
+    "url": "http://osthir.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "patalpuri.com",
+    "url": "http://patalpuri.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "pollyflix.com",
+    "url": "http://pollyflix.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "portal.worldbd.net",
+    "url": "http://portal.worldbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "rahulenterprise.net",
+    "url": "http://rahulenterprise.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "roarmediazone.com",
+    "url": "http://roarmediazone.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "sbnetworkbd.com",
+    "url": "http://sbnetworkbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "serverbd247.com",
+    "url": "http://serverbd247.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "smartonlinebd.com",
+    "url": "http://smartonlinebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "smiledotnet.xyz",
+    "url": "http://smiledotnet.xyz",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "speed4you.net",
+    "url": "http://speed4you.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "spidercommunicationbd.com",
+    "url": "http://spidercommunicationbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "supernetsenbag.com",
+    "url": "http://supernetsenbag.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "swapnonetwork.net",
+    "url": "http://swapnonetwork.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tetraplex.net.bd",
+    "url": "http://tetraplex.net.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "todayvisionbd.com",
+    "url": "http://todayvisionbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tokis.xyz",
+    "url": "http://tokis.xyz",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "unique24.net",
+    "url": "http://unique24.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "uturnbd.live",
+    "url": "http://uturnbd.live",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "videoelephantbd.com",
+    "url": "http://videoelephantbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.a1cyberlinkbd.com",
+    "url": "http://www.a1cyberlinkbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.adharalo.com",
+    "url": "http://www.adharalo.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.agcommunication.net",
+    "url": "http://www.agcommunication.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.alphabroadway.com",
+    "url": "http://www.alphabroadway.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.arafnetbd.com",
+    "url": "http://www.arafnetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.as-bd.net",
+    "url": "http://www.as-bd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.avabdnet.com",
+    "url": "http://www.avabdnet.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.bdspeed.com",
+    "url": "http://www.bdspeed.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.bhuiyan-online.com",
+    "url": "http://www.bhuiyan-online.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.bograonlinebd.com",
+    "url": "http://www.bograonlinebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.bolmovies.com",
+    "url": "http://www.bolmovies.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.c1movies.com",
+    "url": "http://www.c1movies.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.chillbd.net",
+    "url": "http://www.chillbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.ctgtel.net",
+    "url": "http://www.ctgtel.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.dhakadownload.com",
+    "url": "http://www.dhakadownload.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.dotinternetbd.com",
+    "url": "http://www.dotinternetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.ectlink.com",
+    "url": "http://www.ectlink.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.enjoy.net.bd",
+    "url": "http://www.enjoy.net.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.flashnetbd.com",
+    "url": "http://www.flashnetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.fnetctg.com",
+    "url": "http://www.fnetctg.com/index.php/bdix-list",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.fnfonlinebd.com",
+    "url": "http://www.fnfonlinebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.focusonlinectg.com",
+    "url": "http://www.focusonlinectg.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.freedomonlinebd.com",
+    "url": "http://www.freedomonlinebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.freedownloadbd.com",
+    "url": "http://www.freedownloadbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.friendsonlinebd.com",
+    "url": "http://www.friendsonlinebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.furiousnet.net",
+    "url": "http://www.furiousnet.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.intrepidbd.com",
+    "url": "http://www.intrepidbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.jannatmirinternetservice.com",
+    "url": "http://www.jannatmirinternetservice.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.linkinnet.net",
+    "url": "http://www.linkinnet.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.mariumnetwork.com",
+    "url": "http://www.mariumnetwork.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.mixonbd.com",
+    "url": "http://www.mixonbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.mycybernest.com",
+    "url": "http://www.mycybernest.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.nagordola.com.bd",
+    "url": "http://www.nagordola.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.netmatrixbd.com",
+    "url": "http://www.netmatrixbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.netonlinebd.com",
+    "url": "http://www.netonlinebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.onnosomoy.com",
+    "url": "http://www.onnosomoy.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.plus.net.bd",
+    "url": "http://www.plus.net.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.rdconlinebd.net",
+    "url": "http://www.rdconlinebd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.roarzone.info",
+    "url": "http://www.roarzone.info",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.smartnetltd.com",
+    "url": "http://www.smartnetltd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.swiftnetbd.com",
+    "url": "http://www.swiftnetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.tajpata.com",
+    "url": "http://www.tajpata.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.tnetftp.com",
+    "url": "http://www.tnetftp.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.uniqueonlinebd.com",
+    "url": "http://www.uniqueonlinebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.univisionbd.net",
+    "url": "http://www.univisionbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.winneritbd.com",
+    "url": "http://www.winneritbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.yournetcommunications.net",
+    "url": "http://www.yournetcommunications.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.zipnetbd.com",
+    "url": "http://www.zipnetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "zoomonline.com.bd",
+    "url": "http://zoomonline.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.91.53.248",
+    "url": "https://103.91.53.248",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "abibd.com",
+    "url": "https://abibd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "activembd.com",
+    "url": "https://activembd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "activembd.com",
+    "url": "https://activembd.com/internet/ftp-server",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "addanetwork.net",
+    "url": "https://addanetwork.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "alifanet.com",
+    "url": "https://alifanet.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "applelinkbd.net",
+    "url": "https://applelinkbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "asiannetworkbd.net",
+    "url": "https://asiannetworkbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "basnetbd.com",
+    "url": "https://basnetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bdflixlive.com",
+    "url": "https://bdflixlive.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bdix.com.bd",
+    "url": "https://bdix.com.bd/mainweb/list.html",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bondhuitbd.com",
+    "url": "https://bondhuitbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bonsaihd.live",
+    "url": "https://bonsaihd.live",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "btekbd.com",
+    "url": "https://btekbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "cnetworkbd.net",
+    "url": "https://cnetworkbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "crazynetbd.com",
+    "url": "https://crazynetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ctgoz.com",
+    "url": "https://ctgoz.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "cueclub.com.bd",
+    "url": "https://cueclub.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ddnbd.com",
+    "url": "https://ddnbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "digitalbroadband.com.bd",
+    "url": "https://digitalbroadband.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ditbd.net",
+    "url": "https://ditbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "dnetdrive.com",
+    "url": "https://dnetdrive.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "dreamnetbd.com",
+    "url": "https://dreamnetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "easyitbd.com",
+    "url": "https://easyitbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "epnetbd.com",
+    "url": "https://epnetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "f4internetsolution.com",
+    "url": "https://f4internetsolution.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "fastnetbd.org",
+    "url": "https://fastnetbd.org",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "fastplex.net",
+    "url": "https://fastplex.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ftp1.bdix.com.bd",
+    "url": "https://ftp1.bdix.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ftp2.bdix.com.bd",
+    "url": "https://ftp2.bdix.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ftp3.bdix.com.bd",
+    "url": "https://ftp3.bdix.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ftp4.bdix.com.bd",
+    "url": "https://ftp4.bdix.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ftp5.bdix.com.bd",
+    "url": "https://ftp5.bdix.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "genvideos.org",
+    "url": "https://genvideos.org",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ibdplex.net",
+    "url": "https://ibdplex.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ibds.net.bd",
+    "url": "https://ibds.net.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "iboxbd.club",
+    "url": "https://iboxbd.club",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ifra.network",
+    "url": "https://ifra.network",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "infolinkbd.com",
+    "url": "https://infolinkbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "internetzonebd.com",
+    "url": "https://internetzonebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ismart.net.bd",
+    "url": "https://ismart.net.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "itnetzone.com",
+    "url": "https://itnetzone.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "jonycable.com",
+    "url": "https://jonycable.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "kbnonlinebd.net",
+    "url": "https://kbnonlinebd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "kmnbd.net",
+    "url": "https://kmnbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mahirbd.com",
+    "url": "https://mahirbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mahirbd.com",
+    "url": "https://mahirbd.com/media.php",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "media.bdix.com.bd",
+    "url": "https://media.bdix.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "movie.bdix.com.bd",
+    "url": "https://movie.bdix.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "msmonlinebd.com",
+    "url": "https://msmonlinebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mytlinkbd.net",
+    "url": "https://mytlinkbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "netcomisp.net",
+    "url": "https://netcomisp.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "onsbd.net",
+    "url": "https://onsbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "presslinkbd.net",
+    "url": "https://presslinkbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "quetelbd.net",
+    "url": "https://quetelbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "rapidnetbd.com",
+    "url": "https://rapidnetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "rapidnetbd.com",
+    "url": "https://rapidnetbd.com/FTP.html",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "realstation.live",
+    "url": "https://realstation.live",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "rioctg.blogspot.com",
+    "url": "https://rioctg.blogspot.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "rlcafenet.com",
+    "url": "https://rlcafenet.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "rsnetbd.com",
+    "url": "https://rsnetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "salamonline.com.bd",
+    "url": "https://salamonline.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "sardernet.com",
+    "url": "https://sardernet.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "sites.google.com",
+    "url": "https://sites.google.com/view/amberitservers",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "skynetonlinebd.net",
+    "url": "https://skynetonlinebd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "slnisp.com.bd",
+    "url": "https://slnisp.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "snsbd.net",
+    "url": "https://snsbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "sparklinkbd.com",
+    "url": "https://sparklinkbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "speednetkhulna.com",
+    "url": "https://speednetkhulna.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "speedo.net.bd",
+    "url": "https://speedo.net.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "srnetworks.webs.com",
+    "url": "https://srnetworks.webs.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "srnetworks.webs.com",
+    "url": "https://srnetworks.webs.com/ftp-live-tv",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ssonlinebd.com",
+    "url": "https://ssonlinebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "sunplex.net",
+    "url": "https://sunplex.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "supernetbd.com",
+    "url": "https://supernetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "taltola.net",
+    "url": "https://taltola.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "the-potato.net",
+    "url": "https://the-potato.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "touchonline.net.bd",
+    "url": "https://touchonline.net.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "webrangers.net",
+    "url": "https://webrangers.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.alibabanetwork.net",
+    "url": "https://www.alibabanetwork.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.anosbd.com",
+    "url": "https://www.anosbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.anosbd.com",
+    "url": "https://www.anosbd.com/ftp",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.applenetbd.com",
+    "url": "https://www.applenetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.bd7hub.net",
+    "url": "https://www.bd7hub.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.bmnetworkbd.tk",
+    "url": "https://www.bmnetworkbd.tk",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.businesszone.com.bd",
+    "url": "https://www.businesszone.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.citynet.live",
+    "url": "https://www.citynet.live",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.ctghub.com",
+    "url": "https://www.ctghub.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.cybernetbd.com",
+    "url": "https://www.cybernetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.dolyitcorner.net",
+    "url": "https://www.dolyitcorner.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.dreamonlinebd.com",
+    "url": "https://www.dreamonlinebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.fastcyber.net",
+    "url": "https://www.fastcyber.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.flixjar.com",
+    "url": "https://www.flixjar.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.flynetbd.com",
+    "url": "https://www.flynetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.gnetinternet.com",
+    "url": "https://www.gnetinternet.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.gnetworkbd.com",
+    "url": "https://www.gnetworkbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.hkonline.com.bd",
+    "url": "https://www.hkonline.com.bd",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.iflix.com",
+    "url": "https://www.iflix.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.lizaonlinebd.com",
+    "url": "https://www.lizaonlinebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.mazedanetworks.net",
+    "url": "https://www.mazedanetworks.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.netinfobd.com",
+    "url": "https://www.netinfobd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.novusnetworkbd.com",
+    "url": "https://www.novusnetworkbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.powernetbd.com",
+    "url": "https://www.powernetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.rainbownetworkbd.com",
+    "url": "https://www.rainbownetworkbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.runwaybroadband.com",
+    "url": "https://www.runwaybroadband.com/media-server",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.sknetcity.com",
+    "url": "https://www.sknetcity.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.skybizbd.net",
+    "url": "https://www.skybizbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.skynetbd.net",
+    "url": "https://www.skynetbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.tetrasoftbd.com",
+    "url": "https://www.tetrasoftbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.vibebd.com",
+    "url": "https://www.vibebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.worldbd.net",
+    "url": "https://www.worldbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.yellownetbd.com",
+    "url": "https://www.yellownetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.yellownetbd.com",
+    "url": "https://www.yellownetbd.com/ftp",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "yesnetcommunication.com",
+    "url": "https://yesnetcommunication.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "zoomonlinebd.net",
+    "url": "https://zoomonlinebd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.circleftp.net",
+    "url": "http://www.circleftp.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "samftp.com",
+    "url": "https://samftp.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.netathomebd.com",
+    "url": "https://www.netathomebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mangogamers.com",
+    "url": "https://mangogamers.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ftpbd.net",
+    "url": "http://ftpbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.58.73.9",
+    "url": "http://103.58.73.9",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "media.ftpbd.net",
+    "url": "http://media.ftpbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "server1.ftpbd.net",
+    "url": "http://server1.ftpbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "server4.ftpbd.net",
+    "url": "http://server4.ftpbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "alphamediazone.com",
+    "url": "http://alphamediazone.com/moviedom/allmovies.php?page=1&entries=64&sort=DESC&w=grid",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "162.12.215.254",
+    "url": "http://162.12.215.254",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bongobd.com",
+    "url": "https://bongobd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "crazyctg.com",
+    "url": "http://crazyctg.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mybdplex.com",
+    "url": "http://mybdplex.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "roarmediazone.com",
+    "url": "http://roarmediazone.com/all-movies.html",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "showtimebd.com",
+    "url": "http://showtimebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "elaach.com",
+    "url": "http://elaach.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "naturalbd.com",
+    "url": "http://naturalbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.tajpata.com",
+    "url": "http://tv.tajpata.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "vdomela.com",
+    "url": "http://vdomela.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.119.100.54",
+    "url": "http://103.119.100.54",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.anthousebd.net",
+    "url": "http://www.anthousebd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.dhakaftp.com",
+    "url": "http://www.dhakaftp.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.ftpbd.com",
+    "url": "http://www.ftpbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "media.netmatrixbd.com",
+    "url": "http://media.netmatrixbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "quickonlineftp.com",
+    "url": "http://quickonlineftp.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "funtimebd.com",
+    "url": "http://funtimebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "fs.ebox.live",
+    "url": "http://fs.ebox.live",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "cdn1.bossbd.net",
+    "url": "http://cdn1.bossbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.bossbd.net",
+    "url": "http://www.bossbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "cdn.bossbd.net",
+    "url": "http://cdn.bossbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "cdn2.bossbd.net",
+    "url": "http://cdn2.bossbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ftp.bossbd.server",
+    "url": "http://ftp.bossbd.server",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "dhakamovie.com",
+    "url": "http://dhakamovie.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.204.244.70",
+    "url": "http://103.204.244.70",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "kissanime.ru",
+    "url": "https://kissanime.ru",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.funtimebd.com",
+    "url": "http://www.funtimebd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.khulnaplex.net",
+    "url": "http://www.khulnaplex.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.mojarftp.com",
+    "url": "http://www.mojarftp.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "movieboxbd.com",
+    "url": "http://movieboxbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.bdlan.net",
+    "url": "http://www.bdlan.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "media.dfnbd.net",
+    "url": "http://media.dfnbd.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.70.140.14",
+    "url": "http://103.70.140.14",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "live.moviebazar.net",
+    "url": "http://live.moviebazar.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "starflixbd.com",
+    "url": "http://starflixbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "projapoti.live",
+    "url": "http://projapoti.live",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.rangdhanu.live",
+    "url": "https://www.rangdhanu.live",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.195.1.50",
+    "url": "http://103.195.1.50/allmovies.php?page=1&entries=64&sort=DESC&w=grid",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "sparknetbd.com",
+    "url": "https://sparknetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.evonetbd.com",
+    "url": "http://www.evonetbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "202.83.124.242",
+    "url": "http://202.83.124.242:32400/web/index.html#",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ado.dfnbd.net",
+    "url": "http://ado.dfnbd.net/index?a=explore",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "movies.discoveryftp.net",
+    "url": "http://movies.discoveryftp.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bdiptv.net",
+    "url": "http://bdiptv.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "cdn1.discoveryftp.net",
+    "url": "http://cdn1.discoveryftp.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "cdn2.discoveryftp.net",
+    "url": "http://cdn2.discoveryftp.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "cdn3.discoveryftp.net",
+    "url": "http://cdn3.discoveryftp.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.cinehub24.com",
+    "url": "http://www.cinehub24.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "moviehaat.net",
+    "url": "http://moviehaat.net",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "fs2.amrbd.com",
+    "url": "http://fs2.amrbd.com",
+    "category": "FTP",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.dhakamovie.com",
+    "url": "http://www.dhakamovie.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.91.144.230",
+    "url": "http://103.91.144.230",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.222.20.150",
+    "url": "http://103.222.20.150",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.85.235.254",
+    "url": "http://103.85.235.254",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "fileserver.ebox.live",
+    "url": "http://fileserver.ebox.live",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.theintrovision.com",
+    "url": "http://www.theintrovision.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mojaloss.net",
+    "url": "https://mojaloss.net",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.beeflix.biz",
+    "url": "http://www.beeflix.biz",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.bolmovies.com",
+    "url": "https://www.bolmovies.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.bongobd.com",
+    "url": "https://www.bongobd.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.candybd.net",
+    "url": "http://www.candybd.net",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "digbazi.net",
+    "url": "http://digbazi.net",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.dnftpbd.com",
+    "url": "http://www.dnftpbd.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.elaach.com",
+    "url": "http://www.elaach.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.kalponik.net.bd",
+    "url": "http://www.kalponik.net.bd",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.mlsbd.co",
+    "url": "https://www.mlsbd.co",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "medialink24.net",
+    "url": "http://medialink24.net",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "59.152.96.75",
+    "url": "http://59.152.96.75",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.moviemela.live",
+    "url": "http://www.moviemela.live",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.movieserver.net",
+    "url": "http://www.movieserver.net",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.quickonlineftp.com",
+    "url": "http://www.quickonlineftp.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "cinemacity.live",
+    "url": "http://cinemacity.live",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.195.1.50",
+    "url": "http://103.195.1.50",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.showtimebd.com",
+    "url": "http://www.showtimebd.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.smiritycable.com",
+    "url": "https://www.smiritycable.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "timenai.com",
+    "url": "http://timenai.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ubnbd.com",
+    "url": "http://ubnbd.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.135.208.2",
+    "url": "http://103.135.208.2",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ihub.live",
+    "url": "http://ihub.live",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "piay.iflix.com",
+    "url": "https://piay.iflix.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.103.239.66",
+    "url": "http://103.103.239.66",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "alphamediazone.com",
+    "url": "http://alphamediazone.com/moviedom",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.87.212.46",
+    "url": "http://103.87.212.46",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bdplex.net",
+    "url": "http://bdplex.net",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.102.253.250",
+    "url": "http://103.102.253.250",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "dhakaftp.com",
+    "url": "http://dhakaftp.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.85.197.10",
+    "url": "http://103.85.197.10",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "khulnaplex.net",
+    "url": "http://khulnaplex.net",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.106.59.226",
+    "url": "http://103.106.59.226:8096",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "movie.basnetbd.com",
+    "url": "http://movie.basnetbd.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.bdfun.club",
+    "url": "http://www.bdfun.club",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "12.1.1.3",
+    "url": "http://12.1.1.3",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "binodonmela.net",
+    "url": "http://binodonmela.net",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bonsaihd.fun",
+    "url": "https://bonsaihd.fun",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.ctgflix.com",
+    "url": "http://www.ctgflix.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ctgfun.com",
+    "url": "http://ctgfun.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.ctghall.com",
+    "url": "http://www.ctghall.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.ctgstream.com",
+    "url": "http://www.ctgstream.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "chayachobi.net",
+    "url": "http://chayachobi.net",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.cinebioscope.com",
+    "url": "http://www.cinebioscope.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "203.83.177.225",
+    "url": "http://203.83.177.225",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "ctgmovies.com",
+    "url": "http://ctgmovies.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "dekhvhai.com",
+    "url": "http://dekhvhai.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "dhakamovie.com",
+    "url": "http://dhakamovie.com/tube",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "fs.evillagectg.com",
+    "url": "http://fs.evillagectg.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "evonetbd.com",
+    "url": "http://evonetbd.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www6.fmovies.se",
+    "url": "https://www6.fmovies.se",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.113.16.46",
+    "url": "http://103.113.16.46",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.join4films.com",
+    "url": "http://www.join4films.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mlwbd.info",
+    "url": "https://mlwbd.info",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mtube.bdfun.club",
+    "url": "http://mtube.bdfun.club",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mars.bolbd.net",
+    "url": "http://mars.bolbd.net",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.megaplexbd.com",
+    "url": "http://www.megaplexbd.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mlwbd.pw",
+    "url": "https://mlwbd.pw",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "moviescounterhd.club",
+    "url": "https://moviescounterhd.club",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mybdix.com",
+    "url": "http://mybdix.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.naturalbd.com",
+    "url": "http://www.naturalbd.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.85.160.7",
+    "url": "http://103.85.160.7",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "pandaclubbd.com",
+    "url": "http://pandaclubbd.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www1.putlockers.cafe",
+    "url": "https://www1.putlockers.cafe",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.29.127.14",
+    "url": "http://103.29.127.14",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "skynet.com.bd",
+    "url": "http://skynet.com.bd/ftp",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.3.226.208",
+    "url": "http://103.3.226.208",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "smileplex.net",
+    "url": "http://smileplex.net:8096/web/home.html",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "southfreak.site",
+    "url": "https://southfreak.site",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "media.southlinkbd.com",
+    "url": "http://media.southlinkbd.com",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "160.202.146.220",
+    "url": "http://160.202.146.220",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "sunplex.net",
+    "url": "http://sunplex.net",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.timepassbd.live",
+    "url": "http://www.timepassbd.live",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "xmovies8.org",
+    "url": "https://xmovies8.org",
+    "category": "Movie",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.bioscopelive.com",
+    "url": "https://www.bioscopelive.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.amrbd.com",
+    "url": "http://tv.amrbd.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "plusbox.tv",
+    "url": "http://plusbox.tv",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "otv.ftpbd.net",
+    "url": "http://otv.ftpbd.net",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "smartbox.digital",
+    "url": "http://smartbox.digital",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.ctgtv.live",
+    "url": "http://www.ctgtv.live",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "45.249.187.238",
+    "url": "http://45.249.187.238",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.mymoviebazar.net",
+    "url": "http://tv.mymoviebazar.net",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "c1live.com",
+    "url": "http://c1live.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "10.16.100.244",
+    "url": "http://10.16.100.244/livetv.php",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.flashnetbd.net",
+    "url": "http://tv.flashnetbd.net",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.ebox.live",
+    "url": "http://tv.ebox.live",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv2.ebox.live",
+    "url": "http://tv2.ebox.live",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "30.30.30.30",
+    "url": "http://30.30.30.30",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bdiptv.stream",
+    "url": "http://bdiptv.stream",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "15.1.1.10",
+    "url": "http://15.1.1.10",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.rangdhanu.live",
+    "url": "http://tv.rangdhanu.live",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "hdtv.rangdhanu.live",
+    "url": "https://hdtv.rangdhanu.live",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.113.224.68",
+    "url": "http://103.113.224.68",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "dugdugilive.com",
+    "url": "http://dugdugilive.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.anosbd.com",
+    "url": "http://tv.anosbd.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "nagordola.live",
+    "url": "http://nagordola.live",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.ctgoz.com",
+    "url": "http://tv.ctgoz.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.214.156.2",
+    "url": "http://103.214.156.2",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.satrong.live",
+    "url": "http://tv.satrong.live",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.27.27.27",
+    "url": "http://172.27.27.27:8080",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.khulnaflix.net",
+    "url": "http://tv.khulnaflix.net",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "113.212.111.246",
+    "url": "http://113.212.111.246",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.aliflailabd.com",
+    "url": "http://tv.aliflailabd.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.starflixbd.com",
+    "url": "http://www.starflixbd.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "livetv.mirpur.online",
+    "url": "http://livetv.mirpur.online",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "iboxbd.live",
+    "url": "http://iboxbd.live",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.thunderbd.com",
+    "url": "http://tv.thunderbd.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "bdtv.live",
+    "url": "http://bdtv.live",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "59.153.100.77",
+    "url": "http://59.153.100.77",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.dflix.live",
+    "url": "http://tv.dflix.live",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.sparklinkbd.com",
+    "url": "http://tv.sparklinkbd.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "aklivetv.com",
+    "url": "http://aklivetv.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "mtv.sports.bdfun.club",
+    "url": "http://mtv.sports.bdfun.club",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.mtbsl.com",
+    "url": "http://tv.mtbsl.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.neobd.net",
+    "url": "http://tv.neobd.net",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "live.bdlan.net",
+    "url": "http://live.bdlan.net",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.16.50.2",
+    "url": "http://172.16.50.2",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.16.50.22",
+    "url": "http://172.16.50.22",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.80.70.59",
+    "url": "http://103.80.70.59",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.linktech.net.bd",
+    "url": "http://tv.linktech.net.bd",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.tv.hitechisp.com",
+    "url": "https://www.tv.hitechisp.com/live-tv.html",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.102.27.172",
+    "url": "http://103.102.27.172",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.medialink24.net",
+    "url": "http://tv.medialink24.net",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.amaze-tv.com",
+    "url": "http://www.amaze-tv.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.powernetbd.com",
+    "url": "http://tv.powernetbd.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.tetrasoftbd.com",
+    "url": "http://tv.tetrasoftbd.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.150.6.2",
+    "url": "http://103.150.6.2",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "khulnatv.live",
+    "url": "http://khulnatv.live",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "iptv.mcnbd.com",
+    "url": "http://iptv.mcnbd.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.27.27.85",
+    "url": "http://172.27.27.85",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "iptv.ksnetworkbd.com",
+    "url": "https://iptv.ksnetworkbd.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.fn-bd.com",
+    "url": "http://tv.fn-bd.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.dfn.net",
+    "url": "https://tv.dfn.net",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.dfnbd.net",
+    "url": "https://tv.dfnbd.net",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.bdiptv.com",
+    "url": "http://www.bdiptv.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "c247.se",
+    "url": "http://c247.se",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "10.16.100.244",
+    "url": "http://10.16.100.244",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.jagobd.com",
+    "url": "http://www.jagobd.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "roarmediazone.com",
+    "url": "http://roarmediazone.com/live-tv.html",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "172.16.50.4",
+    "url": "http://172.16.50.4",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tvbd.live",
+    "url": "http://tvbd.live",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "watchliveall.com",
+    "url": "http://watchliveall.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "103.114.36.14",
+    "url": "http://103.114.36.14",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "banglaflix.com.bd",
+    "url": "http://banglaflix.com.bd",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "www.ebox.live",
+    "url": "http://www.ebox.live",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "10.16.100.244",
+    "url": "http://10.16.100.244/entertainment",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.ihub.live",
+    "url": "http://tv.ihub.live",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  },
+  {
+    "name": "tv.megaplexbd.com",
+    "url": "http://tv.megaplexbd.com",
+    "category": "TV",
+    "description": "Community list — via BDIX-TESTER-BY-BORANNO (BSD-3-Clause, (c) 2022 Boranno Golder)"
+  }
+]

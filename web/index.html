@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BDIX-Tester — BDIX Server Test</title>
+<meta name="description" content="Ad-free, self-hosted test for BDIX (Bangladesh Internet Exchange) servers. Runs 100% on your machine — no ads, no trackers.">
+<style>
+  :root {
+    --bg: #0e1116;
+    --panel: #161b24;
+    --panel-2: #1c2330;
+    --text: #e6e9ef;
+    --muted: #8b94a7;
+    --green: #2fbf71;
+    --red: #ef476f;
+    --amber: #ffd166;
+    --blue: #4cc9f0;
+    --accent: #7c5cff;
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', system-ui, -apple-system, Roboto, Arial, sans-serif;
+    background: radial-gradient(1200px 500px at 50% -10%, #1d2436 0%, var(--bg) 60%);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  header { text-align: center; margin-bottom: 1.75rem; }
+  .logo { font-size: 1.9rem; font-weight: 800; letter-spacing: .5px; }
+  .logo .dot { color: var(--accent); }
+  header p { color: var(--muted); margin: .35rem 0 0; }
+  .actions { display: flex; gap: .75rem; justify-content: center; align-items: center; margin: 1.25rem 0 1rem; flex-wrap: wrap; }
+  button {
+    font: inherit; border: 0; border-radius: 10px; padding: .65rem 1.5rem; cursor: pointer;
+    color: #fff; background: linear-gradient(135deg, var(--accent), #5a3ee0); font-weight: 600;
+    transition: transform .12s ease, filter .12s ease;
+  }
+  button:hover { filter: brightness(1.12); transform: translateY(-1px); }
+  button:disabled { cursor: wait; filter: grayscale(.6); }
+  .ghost { background: var(--panel-2); border: 1px solid #2a3242; color: var(--text); }
+  .cards { display: flex; gap: .75rem; justify-content: center; margin: .5rem 0 1.25rem; flex-wrap: wrap; }
+  .card { background: var(--panel); border: 1px solid #232b3a; border-radius: 12px; padding: .6rem 1.4rem; text-align: center; min-width: 96px; }
+  .card b { display: block; font-size: 1.5rem; }
+  .card span { color: var(--muted); font-size: .8rem; letter-spacing: .6px; text-transform: uppercase; }
+  .c-open { color: var(--green); } .c-closed { color: var(--red); } .c-failed { color: var(--amber); }
+  .bar { height: 6px; background: var(--panel-2); border-radius: 4px; overflow: hidden; margin: 0 auto 1.25rem; max-width: 640px; }
+  .bar > div { height: 100%; width: 0%; background: linear-gradient(90deg, var(--accent), var(--blue)); transition: width .3s ease; }
+  .bar-label { text-align: center; color: var(--muted); font-size: .8rem; margin: -.6rem 0 1.25rem; }
+  .toolbar { display: flex; gap: .6rem; align-items: center; justify-content: space-between; margin-bottom: .6rem; flex-wrap: wrap; }
+  .filters { display: flex; gap: .4rem; flex-wrap: wrap; }
+  .filter-btn { background: var(--panel-2); border: 1px solid #2a3242; color: var(--text); padding: .35rem .9rem; font-weight: 500; font-size: .85rem; }
+  .filter-btn.active { border-color: var(--accent); color: #cfc6ff; }
+  #search { background: var(--panel); border: 1px solid #232b3a; color: var(--text); border-radius: 10px; padding: .5rem .8rem; width: 240px; max-width: 100%; }
+  #search:focus { outline: 2px solid var(--accent); }
+  table { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid #232b3a; border-radius: 12px; overflow: hidden; font-size: .88rem; }
+  th, td { padding: .5rem .65rem; text-align: left; border-bottom: 1px solid #1e2634; }
+  th { background: var(--panel-2); color: var(--muted); font-size: .75rem; letter-spacing: .8px; text-transform: uppercase; position: sticky; top: 0; }
+  tr:hover td { background: #1a2230; }
+  .badge { display: inline-block; padding: .12rem .55rem; border-radius: 999px; font-size: .72rem; font-weight: 600; }
+  .cat-FTP { background: #123a2c; color: #4ade9c; }
+  .cat-Movie { background: #3a2312; color: #f0a35e; }
+  .cat-TV { background: #33172a; color: #f06ea6; }
+  .cat-Movie\.TV { background: #2c1a3a; color: #c48cf5; }
+  .st { display: inline-flex; align-items: center; gap: .4rem; font-weight: 600; }
+  .st::before { content: ''; width: 11px; height: 11px; border-radius: 4px; background: var(--muted); display: inline-block; }
+  .st-open { color: var(--green); } .st-open::before { background: var(--green); }
+  .st-closed { color: var(--red); } .st-closed::before { background: var(--red); }
+  .st-failed { color: var(--amber); } .st-failed::before { background: var(--amber); }
+  .st-pending { color: var(--muted); } .st-pending::before { background: #3a4457; animation: pulse 1s infinite alternate; }
+  @keyframes pulse { from { opacity: .4 } to { opacity: 1 } }
+  a { color: var(--blue); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .visit { display: inline-block; background: var(--panel-2); border: 1px solid #2a3242; color: var(--blue); border-radius: 8px; padding: .22rem .7rem; font-size: .78rem; }
+  footer { text-align: center; color: var(--muted); font-size: .78rem; margin-top: 1.5rem; }
+  footer a { color: var(--muted); }
+  @media (max-width: 640px) {
+    .hide-sm { display: none; }
+    .logo { font-size: 1.4rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">BDIX<span class="dot">·</span>Tester</div>
+    <p>Self-hosted, ad-free test for <strong>BDIX</strong> (Bangladesh Internet Exchange) servers — runs fully on your machine.</p>
+  </header>
+
+  <div class="actions">
+    <button id="test-btn">Test all servers</button>
+    <button class="ghost" id="retest-btn" hidden>Test again</button>
+  </div>
+
+  <div class="cards" id="cards" hidden>
+    <div class="card"><b class="c-open" id="n-open">0</b><span>Open</span></div>
+    <div class="card"><b class="c-closed" id="n-closed">0</b><span>Closed</span></div>
+    <div class="card"><b class="c-failed" id="n-failed">0</b><span>Failed</span></div>
+    <div class="card"><b id="n-total">0</b><span>Total</span></div>
+  </div>
+
+  <div class="bar" id="bar" hidden><div id="bar-fill"></div></div>
+  <div class="bar-label" id="bar-label" hidden>0 / 0</div>
+
+  <div class="toolbar" id="toolbar" hidden>
+    <div class="filters">
+      <button class="filter-btn active" data-f="all">All</button>
+      <button class="filter-btn" data-f="open">Open</button>
+      <button class="filter-btn" data-f="closed">Closed</button>
+      <button class="filter-btn" data-f="failed">Failed</button>
+    </div>
+    <input id="search" type="text" placeholder="Search server…" autocomplete="off">
+  </div>
+
+  <table id="table" hidden>
+    <thead>
+      <tr><th>Server</th><th class="hide-sm">Category</th><th class="hide-sm">Ping</th><th>Status</th><th>Link</th></tr>
+    </thead>
+    <tbody id="results"></tbody>
+  </table>
+
+  <footer>
+    <p>Data: local <code>servers.json</code> snapshot · Tests run from this machine via <code>bdix_tester.py</code> · No ads, no analytics, no tracking.</p>
+    <p>Credits &amp; original data source: <a href="https://bdix.link/test/server" target="_blank" rel="noopener">bdix.link</a> · <a href="https://github.com/iamtanzir/BDIX-Tester" target="_blank" rel="noopener">iamtanzir/BDIX-Tester</a></p>
+  </footer>
+</div>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const $$ = (s) => [...document.querySelectorAll(s)];
+const resultsEl = $('#results');
+const state = { servers: [], results: new Map(), filter: 'all', search: '' };
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function rowHTML(s) {
+  const id = 'row-' + s.name.replace(/\s+/g, '-');
+  return `<tr id="${esc(id)}" data-name="${esc(s.name.toLowerCase())}" data-status="pending">
+    <td>${esc(s.name)}</td>
+    <td class="hide-sm"><span class="badge cat-${esc(s.category)}">${esc(s.category)}</span></td>
+    <td class="hide-sm" data-cell="ping">–</td>
+    <td data-cell="status"><span class="st st-pending">Waiting…</span></td>
+    <td><a class="visit" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Visit ↗</a></td>
+  </tr>`;
+}
+
+function setRowStatus(s, status, ping) {
+  const row = document.getElementById('row-' + s.name.replace(/\s+/g, '-'));
+  if (!row) return;
+  row.dataset.status = status;
+  const pingCell = row.querySelector('[data-cell="ping"]');
+  const statusCell = row.querySelector('[data-cell="status"]');
+  if (pingCell) pingCell.textContent = ping ? `${ping} ms` : '–';
+  const cls = { open: 'st-open', closed: 'st-closed', failed: 'st-failed' }[status] || 'st-pending';
+  const label = { open: 'Open', closed: 'Closed', failed: 'Failed' }[status] || 'Waiting…';
+  statusCell.innerHTML = `<span class="st ${cls}">${label}</span>`;
+}
+
+function counts() {
+  let open = 0, closed = 0, failed = 0;
+  for (const v of state.results.values()) {
+    if (v === 'open') open++; else if (v === 'closed') closed++; else failed++;
+  }
+  return { open, closed, failed, total: state.servers.length };
+}
+
+function refreshCards() {
+  const c = counts();
+  $('#n-open').textContent = c.open;
+  $('#n-closed').textContent = c.closed;
+  $('#n-failed').textContent = c.failed;
+  $('#n-total').textContent = c.total;
+}
+
+function applyViewFilter() {
+  const q = state.search.trim().toLowerCase();
+  $$('#results tr').forEach((row) => {
+    const matchSearch = !q || row.dataset.name.includes(q);
+    const matchFilter = state.filter === 'all' || row.dataset.status === state.filter;
+    row.style.display = matchSearch && matchFilter ? '' : 'none';
+  });
+}
+
+function updateBar(done) {
+  const total = state.servers.length;
+  $('#bar-fill').style.width = total ? (done / total * 100) + '%' : '0%';
+  $('#bar-label').textContent = `${done} / ${total} tested`;
+}
+
+async function testOne(server) {
+  try {
+    const res = await fetch('/api/test?name=' + encodeURIComponent(server.name));
+    const data = await res.json();
+    const status = data.verdict === 'UP' ? 'open'
+      : data.verdict === 'BLOCKED' ? 'closed' : 'failed';
+    const ping = data.http && data.http.latency_ms != null ? Math.round(data.http.latency_ms) : null;
+    state.results.set(server.name, status);
+    setRowStatus(server, status, ping);
+  } catch (e) {
+    state.results.set(server.name, 'failed');
+    setRowStatus(server, 'failed', null);
+  }
+  refreshCards();
+  applyViewFilter();
+  updateBar(state.results.size);
+}
+
+async function runAll() {
+  const btn = $('#test-btn');
+  btn.disabled = true;
+  btn.textContent = 'Testing…';
+  state.results.clear();
+  ['#cards', '#bar', '#bar-label', '#toolbar', '#table'].forEach((s) => { $(s).hidden = false; });
+  const CONCURRENCY = 8;
+  let i = 0, done = 0;
+  async function worker() {
+    while (i < state.servers.length) {
+      const idx = i++;
+      await testOne(state.servers[idx]);
+      done++;
+    }
+  }
+  updateBar(0);
+  refreshCards();
+  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+  btn.disabled = false;
+  btn.hidden = true;
+  $('#retest-btn').hidden = false;
+  $('#bar-label').textContent = 'Done — ' + counts().open + ' open of ' + state.servers.length;
+}
+
+async function init() {
+  const res = await fetch('/api/servers');
+  state.servers = await res.json();
+  resultsEl.innerHTML = state.servers.map(rowHTML).join('');
+  $('#n-total').textContent = state.servers.length;
+
+  $('#test-btn').addEventListener('click', runAll);
+  $('#retest-btn').addEventListener('click', runAll);
+  $('#search').addEventListener('input', (e) => { state.search = e.target.value; applyViewFilter(); });
+  $$('.filter-btn').forEach((b) => b.addEventListener('click', () => {
+    state.filter = b.dataset.f;
+    $$('.filter-btn').forEach((x) => x.classList.toggle('active', x === b));
+    applyViewFilter();
+  }));
+}
+
+init().catch((e) => {
+  document.body.innerHTML = '<pre style="color:#ef476f;padding:2rem">Failed to load server list: ' + esc(e) + '</pre>';
+});
+</script>
+</body>
+</html>
