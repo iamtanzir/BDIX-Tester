@@ -84,7 +84,7 @@
   .cat-FTP { background: #123a2c; color: #4ade9c; }
   .cat-Movie { background: #3a2312; color: #f0a35e; }
   .cat-TV { background: #33172a; color: #f06ea6; }
-  .cat-Movie\.TV { background: #2c1a3a; color: #c48cf5; }
+  .cat-Movie-TV { background: #2c1a3a; color: #c48cf5; }
   .st { display: inline-flex; align-items: center; gap: .35rem; font-weight: 700; }
   .st::before { content: ''; width: 10px; height: 10px; border-radius: 3px; background: var(--muted); display: inline-block; }
   .st-open { color: var(--green); } .st-open::before { background: var(--green); }
@@ -175,6 +175,7 @@ const state = {
   networkChoice: 'auto',
   testToken: 0,
 };
+let serverByName = new Map();
 
 function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -188,6 +189,10 @@ function networkLabel(s) {
   return 'BDIX';
 }
 
+function categoryClass(value) {
+  return String(value).replace(/[^a-z0-9]+/gi, '-');
+}
+
 function serverIsVisible(s) {
   if (state.networkChoice === 'all') return true;
   if (state.networkChoice === 'auto') return state.detected
@@ -196,17 +201,13 @@ function serverIsVisible(s) {
   return s.scope === 'bdix' || normalise(s.isp) === normalise(state.networkChoice);
 }
 
-function effectiveNetworkName() {
-  return state.networkChoice === 'auto' ? (state.detected || 'BDIX (network not detected)') : state.networkChoice;
-}
-
 function visibleServers() { return state.servers.filter(serverIsVisible); }
 
 function rowHTML(s) {
   return `<tr id="${esc(rowId(s))}" data-name="${esc(s.name.toLowerCase())}" data-status="pending" data-network="${esc(s.scope)} ${esc(s.isp || '')}">
     <td>${esc(s.name)}</td>
     <td class="hide-sm">${esc(networkLabel(s))}</td>
-    <td class="hide-sm"><span class="badge cat-${esc(s.category)}">${esc(s.category)}</span></td>
+    <td class="hide-sm"><span class="badge cat-${esc(categoryClass(s.category))}">${esc(s.category)}</span></td>
     <td class="hide-sm" data-cell="ping">–</td>
     <td data-cell="status"><span class="st st-pending">Waiting</span></td>
     <td><a class="visit" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Visit ↗</a></td>
@@ -262,7 +263,7 @@ function refreshCards() {
 function applyViewFilter() {
   const q = state.search.trim().toLowerCase();
   $$('#results tr').forEach((row) => {
-    const server = state.servers.find((s) => s.name === row.cells[0].textContent);
+    const server = serverByName.get(row.cells[0].textContent);
     const matchSearch = !q || row.dataset.name.includes(q);
     const matchStatus = state.filter === 'all' || row.dataset.status === state.filter;
     row.style.display = server && matchSearch && matchStatus && serverIsVisible(server) ? '' : 'none';
@@ -308,7 +309,6 @@ async function runAll() {
 }
 
 function mapDetectedNetwork(text, asn) {
-  const hay = normalise(`${text || ''} ${asn || ''}`);
   for (const rule of state.rules.detect || []) {
     try { if (new RegExp(rule.pattern, 'i').test(String(text || ''))) return rule.isp; } catch (_) {}
   }
@@ -402,6 +402,7 @@ async function init() {
   }
   const [serversRes, rulesRes] = await Promise.all([fetch('/api/servers'), fetch('/api/isp-rules')]);
   state.servers = await serversRes.json();
+  serverByName = new Map(state.servers.map((s) => [s.name, s]));
   state.rules = await rulesRes.json();
   populateNetworkSelect();
   await detectNetwork();

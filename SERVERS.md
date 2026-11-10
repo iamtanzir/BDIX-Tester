@@ -2,7 +2,7 @@
 
 > 134 BDIX servers from `servers.json` · generated 2026-11-10 · Movie: 82 · TV: 22 · Movie+TV: 2 · FTP: 28
 
-Regenerate this file with `python bdix_tester.py list --markdown` after editing `servers.json`. A larger community list (~525 entries, unverified) is available as `community-servers.json` — test it with `python bdix_tester.py --community`.
+Regenerate a flat Markdown table with `python bdix_tester.py list --markdown` after editing `servers.json`. (`SERVERS.md` in this repo is grouped by category.) A larger community list (~525 entries, unverified) is available as `community-servers.json` — test it with `python bdix_tester.py --community`.
 
 Missing a server? Open a pull request editing `servers.json` — keep entries alphabetical by name within their category.
 

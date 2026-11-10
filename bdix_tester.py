@@ -62,7 +62,6 @@ COMMUNITY_DATA = os.path.join(BASE_DIR, "community-servers.json")
 WEB_DIR = os.path.join(BASE_DIR, "web")
 DEFAULT_ISP_RULES = os.path.join(BASE_DIR, "isp-rules.json")
 _ISP_RULES_CACHE = None
-_DETECT_CACHE = None
 
 # ---------------------------------------------------------------- utilities
 
@@ -97,10 +96,6 @@ def supports_color(no_color_flag: bool) -> bool:
 
 def detect_network():
     """Detect the public network using fixed third-party lookup endpoints."""
-    global _DETECT_CACHE
-    if _DETECT_CACHE and time.time() - _DETECT_CACHE[0] < 600:
-        return _DETECT_CACHE[1]
-
     providers = []
 
     def ipwhois(d):
@@ -149,7 +144,6 @@ def detect_network():
                 data = json.loads(resp.read().decode("utf-8"))
             result = normalise(data)
             if result and result.get("org"):
-                _DETECT_CACHE = (time.time(), result)
                 return result
         except Exception as exc:
             errors.append(f"{url}: {type(exc).__name__}")
@@ -227,8 +221,17 @@ def normalize_entry(raw: dict) -> dict:
             category = "Movie"
         else:
             category = "Other"
-    if url and "://" not in url:
-        url = "http://" + url
+    if url:
+        if "://" in url:
+            scheme = url.split("://", 1)[0].lower()
+            if scheme not in ("http", "https"):
+                url = ""
+        else:
+            url = "http://" + url
+    if url:
+        parsed = urlparse(url)
+        if not parsed.hostname:
+            url = ""
     return {"name": name, "url": url, "category": category, "description": description}
 
 
@@ -609,6 +612,12 @@ def write_json_report(path, summary, results):
                   ensure_ascii=False, indent=2)
 
 
+def csv_safe(value):
+    text = str(value if value is not None else "")
+    text = text.replace("\r", " ").replace("\n", " ")
+    return "'" + text if text.startswith(("=", "+", "-", "@")) else text
+
+
 def write_csv_report(path, results):
     with open(path, "w", newline="", encoding="utf-8-sig") as fh:
         writer = csv.writer(fh)
@@ -618,10 +627,11 @@ def write_csv_report(path, results):
         for r in results:
             http = r.get("http", {})
             ftp = r.get("ftp", {})
-            writer.writerow([r["name"], r["url"], r["category"], r["verdict"],
-                             http.get("status"), http.get("latency_ms"),
-                             http.get("error"), ftp.get("ok"),
-                             ftp.get("banner"), ftp.get("error")])
+            writer.writerow([csv_safe(r["name"]), csv_safe(r["url"]),
+                             csv_safe(r["category"]), csv_safe(r["verdict"]),
+                             csv_safe(http.get("status")), csv_safe(http.get("latency_ms")),
+                             csv_safe(http.get("error")), csv_safe(ftp.get("ok")),
+                             csv_safe(ftp.get("banner")), csv_safe(ftp.get("error"))])
 
 
 def write_html_report(path, summary, results):
@@ -774,11 +784,13 @@ def cmd_list(args, console):
     servers = load_servers(resolve_data_path(args))
     servers = filter_servers(servers, args.type, args.name, args.isp)
     if args.markdown:
+        def md_cell(value):
+            return str(value).replace("\\", "\\\\").replace("|", "\\|")
         print("| # | Server | Category | Link |")
         print("|---|--------|----------|------|")
         for i, s in enumerate(servers, 1):
-            link = s["url"]
-            print(f"| {i} | {s['name']} | {s['category']} | <{link}> |")
+            link = md_cell(s["url"])
+            print(f"| {i} | {md_cell(s['name'])} | {md_cell(s['category'])} | <{link}> |")
         return 0
     for i, s in enumerate(servers, 1):
         print(f"{i:>4}. [{s['category']:<8}] {s['name']:<30} {s['url']}")
