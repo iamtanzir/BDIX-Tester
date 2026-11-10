@@ -27,6 +27,7 @@
     {"pattern": "barua|baruacynet", "isp": "Barua Cybernet", "scope": "isp"},
     {"pattern": "linktech\\.net\\.bd", "isp": "LinkTech", "scope": "isp"},
     {"pattern": "megaplexbd", "isp": "Mega PlexBD", "scope": "isp"},
+    {"pattern": "joshinternet|josh\\s*internet", "isp": "Josh Internet", "scope": "isp"},
     {"pattern": "metromedia\\.digital", "isp": "Metro Media", "scope": "isp"},
     {"pattern": "ctgoz", "isp": "CTG Network", "scope": "isp"}
   ],
@@ -57,6 +58,7 @@
     {"pattern": "dflix", "isp": "DFLIX"},
     {"pattern": "barua", "isp": "Barua Cybernet"},
     {"pattern": "megaplex|mega\\s*plex", "isp": "Mega PlexBD"},
+    {"pattern": "josh\\s*internet|joshinternet", "isp": "Josh Internet"},
     {"pattern": "linktech", "isp": "LinkTech"}
   ]
 }

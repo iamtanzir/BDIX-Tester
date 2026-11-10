@@ -121,12 +121,22 @@ def detect_network():
                 "asn": match.group(1) if match else None,
                 "country": d.get("country"), "provider": "ipinfo.io"}
 
+    def freeipapi(d):
+        org = d.get("asnOrganization")
+        if not org:
+            return None
+        asn = d.get("asn")
+        return {"org": org,
+                "asn": f"AS{asn}" if asn and not str(asn).startswith("AS") else asn,
+                "country": d.get("countryCode"), "provider": "freeipapi.com"}
+
     def ipapi(d):
         if d.get("error") or not d.get("org"):
             return None
         return {"org": d.get("org"), "asn": d.get("asn"),
                 "country": d.get("country_code"), "provider": "ipapi.co"}
 
+    providers.append(("https://free.freeipapi.com/api/json", freeipapi))
     providers.append(("https://ipwho.is/", ipwhois))
     providers.append(("https://ipinfo.io/json/", ipinfo))
     providers.append(("https://ipapi.co/json/", ipapi))

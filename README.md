@@ -136,6 +136,8 @@ python bdix_tester.py web --port 9000 --open
 
 It detects your network (you can override it) and shows only servers it can realistically reach: public BDIX servers, plus private/ISP-specific servers only when they match your ISP. The **Test visible servers** button verifies that exact filtered set.
 
+Detection is not limited to a built-in list of Bangladeshi ISPs: the app asks live lookup services for your public `org`, `ASN` and `country`. A brand-new ISP will still be detected as an organization, but private servers can only be associated automatically after its name/domain pattern is added to `isp-rules.json`; until then it shows public BDIX servers and you can choose **All networks** or add the rule.
+
 Strict checks: HTTP requires a real 2xx/3xx response; FTP requires anonymous login unless `--no-ftp-login` is used. "Verified" means the server answered correctly from this machine at that moment — no external service can be guaranteed forever.
 
 ## Deploying to Render (Free)

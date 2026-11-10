@@ -320,6 +320,11 @@ async function detectNetwork() {
   note.textContent = 'Detecting…';
   const browserProviders = [
     async () => {
+      const r = await fetch('https://free.freeipapi.com/api/json/', { cache: 'no-store' });
+      const d = await r.json();
+      return { org: d.asnOrganization, asn: d.asn ? `AS${d.asn}` : null, country: d.countryCode, success: !!d.asnOrganization };
+    },
+    async () => {
       const r = await fetch('https://ipinfo.io/json/', { cache: 'no-store' });
       const d = await r.json();
       const match = d.org ? d.org.match(/^(AS\d+)\s+(.+)$/) : null;
