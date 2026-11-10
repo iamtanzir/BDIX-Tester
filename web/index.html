@@ -29,9 +29,16 @@
   }
   .wrap { max-width: 1120px; margin: 0 auto; padding: 1.25rem 1rem 2.5rem; }
   header { text-align: center; margin-bottom: 1.25rem; }
-  .eyebrow { color: var(--blue); font-size: .72rem; letter-spacing: 1.4px; text-transform: uppercase; font-weight: 700; }
-  h1 { margin: .35rem 0; font-size: clamp(1.7rem, 4vw, 2.6rem); }
-  header p { color: var(--muted); margin: .3rem auto; max-width: 720px; }
+  .eyebrow { color: var(--blue); font-size: .72rem; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 800; }
+  .eyebrow::before, .eyebrow::after { content: ''; width: 28px; height: 1px; background: linear-gradient(90deg, transparent, var(--blue)); display: inline-block; vertical-align: middle; margin: 0 .45rem; }
+  .eyebrow::after { transform: scaleX(-1); }
+  h1 { margin: .55rem auto .45rem; max-width: 850px; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; letter-spacing: -1.2px; }
+  h1 .gradient { color: transparent; background: linear-gradient(110deg, #ffffff 0%, #b8c8ff 42%, #7ce7ff 72%, #ff8abf 100%); background-clip: text; -webkit-background-clip: text; }
+  .lead { color: #c6cedd; margin: .35rem auto .7rem; max-width: 820px; line-height: 1.65; font-size: .98rem; }
+  .lead strong { color: #fff; }
+  .lead .bd { color: #7ce7ff; }
+  .chips { display: flex; gap: .45rem; justify-content: center; flex-wrap: wrap; margin: .55rem auto .6rem; }
+  .chip { color: #d8e2f3; background: rgba(124,92,255,.12); border: 1px solid rgba(124,92,255,.38); border-radius: 999px; padding: .18rem .62rem; font-size: .74rem; font-weight: 650; }
   .notice {
     margin: .6rem auto; max-width: 900px; padding: .55rem .75rem; border: 1px solid #2a3447;
     border-radius: 10px; background: #131a26; color: #c8d3e2; font-size: .82rem;
@@ -93,9 +100,15 @@
 <body>
 <div class="wrap">
   <header>
-    <div class="eyebrow">Strict, network-aware testing</div>
-    <h1>Find BDIX servers that actually work</h1>
-    <p>We detect your network and test only the servers it can realistically reach. A server counts as verified only when it answers correctly right now.</p>
+    <div class="eyebrow">Bangladesh Internet Exchange</div>
+    <h1>Servers that <span class="gradient">actually respond</span> on your network.</h1>
+    <p class="lead"><strong class="bd">BDIX</strong> connects Bangladesh’s ISPs locally. We detect your network, show the public and private servers it can realistically reach, and verify each one with a strict live check.</p>
+    <div class="chips" aria-label="Features">
+      <span class="chip">ISP-aware</span>
+      <span class="chip">Strict 2xx/3xx checks</span>
+      <span class="chip">Anonymous FTP login</span>
+      <span class="chip">No ads</span>
+    </div>
     <div id="mode-notice" class="notice" hidden></div>
   </header>
 
