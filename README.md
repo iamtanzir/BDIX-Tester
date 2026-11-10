@@ -145,7 +145,7 @@ One click tests every server with live progress, Open/Closed/Failed counters, se
 ## Credits & data sources
 
 - [BDIX.Link](https://bdix.link/test/server) — original public web tester; our `servers.json` snapshot is derived from its public server data. No bdix.link code is included in this repo.
-- [BDIX-TESTER-BY-BORANNO](https://github.com/boranno/BDIX-TESTER-BY-BORANNO) (BSD-3-Clause, © 2022 Boranno Golder) — `community-servers.json` (~525 URLs). License copy: `LICENSES/BSD-3-Clause-Boranno-Golder.txt`. See `tools/import_community_list.py` for provenance.
+- [BDIX-TESTER-BY-BORANNO](https://github.com/boranno/BDIX-TESTER-BY-BORANNO) (BSD-3-Clause, © 2022 Boranno Golder) — `community-servers.json` (~525 URLs). The BSD-3-Clause text is retained in full in `NOTICE` (required for redistribution); MIT does **not** cover that file. See `tools/import_community_list.py` for provenance.
 - [BDIX](https://bdix.net/) — the exchange itself.
 
 ## License

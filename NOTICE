@@ -1,24 +1,57 @@
 BDIX-Tester
 Copyright (c) 2026 A.K.M. Tanzir Ahmed (@iamtanzir)
+All rights reserved.
 
-This project distributes data and code derived from the following sources;
-each retains its own copyright and license:
+The BDIX-Tester software (the CLI, the local web dashboard, the tooling and
+this documentation) is licensed under the MIT License — see LICENSE.
 
-1. Original BDIX server snapshot (this repository, initial commits, 2026).
-   Servers listed are third-party infrastructure running at the operators'
-   discretion; listing does not imply endorsement or affiliation.
+This distribution additionally contains third-party material noted below.
+That material is NOT covered by the MIT License.
 
-2. BDIX-TESTER-BY-BORANNO
-   Copyright (c) 2022 Boranno Golder — BSD 3-Clause License
-   https://github.com/boranno/BDIX-TESTER-BY-BORANNO
-   Used for `community-servers.json` (see `tools/import_community_list.py`).
-   Full license text: `LICENSES/BSD-3-Clause-Boranno-Golder.txt`.
+----------------------------------------------------------------------------
+community-servers.json
+Derived from BDIX-TESTER-BY-BORANNO (https://github.com/boranno/BDIX-TESTER-BY-BORANNO)
 
-3. BDIX.Link (https://bdix.link/test/server)
-   The original public web tester. Our curated `servers.json` snapshot is
-   derived from its public server data. No source code from bdix.link is
-   included in this repository; the local web dashboard in `web/` is an
-   original implementation.
+Copyright (c) 2022 Boranno Golder
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+Importing tool: tools/import_community_list.py
+----------------------------------------------------------------------------
+servers.json
+Server snapshot derived from publicly listed data associated with
+https://bdix.link/test/server (BDIX.Link). No source code from bdix.link is
+included in this repository; the local web dashboard in web/ is an original
+implementation. Listing of a server does not imply endorsement or affiliation
+with its operator.
 
 BDIX is operated by the Bangladesh Internet Exchange (bdix.net); this is an
 unofficial community tool and is not affiliated with or endorsed by BDIX.
+
+Third-party material copyright notices are the property of their respective
+owners. All other content © 2026 A.K.M. Tanzir Ahmed.
